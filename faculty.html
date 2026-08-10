@@ -1,50 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faculty Portal</title>
-</head>
-<body>
+<!-- Faculty Profile Summary -->
+<section class="faculty-summary">
 
-    <h1>Faculty Portal</h1>
+    <h2>Faculty Profile</h2>
 
-    <nav>
-        <a href="dashboard.html">Dashboard</a> |
-        <a href="student.html">Students</a> |
-        <a href="faculty.html">Faculty</a> |
-        <a href="hod.html">HOD</a> |
-        <a href="login.html">Logout</a>
-    </nav>
+    <div class="faculty-profile">
 
-    <hr>
+        <div class="profile-info">
+            <h3>Dr. Rahul Sharma</h3>
+            <p><strong>Faculty ID:</strong> FAC001</p>
+            <p><strong>Department:</strong> Computer Science & Engineering</p>
+            <p><strong>Subjects:</strong> Data Structures, Algorithms</p>
+            <p><strong>Experience:</strong> 8 Years</p>
+        </div>
 
-    <h2>Faculty Information</h2>
+        <div class="faculty-status">
+            <span class="status-active">Active</span>
+            <p>Attendance: <strong>95%</strong></p>
+        </div>
 
-    <form>
-        <label>Faculty Name:</label>
-        <input type="text" placeholder="Enter faculty name">
-        <br><br>
+    </div>
 
-        <label>Faculty ID:</label>
-        <input type="text" placeholder="Enter faculty ID">
-        <br><br>
+</section>
 
-        <label>Email:</label>
-        <input type="email" placeholder="Enter email">
-        <br><br>
+<style>
+    .faculty-summary {
+        margin-top: 30px;
+        background: #ffffff;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
 
-        <label>Department:</label>
-        <select>
-            <option>Computer Science</option>
-            <option>Information Science</option>
-            <option>Electronics</option>
-            <option>Mechanical</option>
-        </select>
-        <br><br>
+    .faculty-summary h2 {
+        color: #1e3c72;
+        margin-bottom: 20px;
+    }
 
-        <button type="submit">Save Faculty</button>
-    </form>
+    .faculty-profile {
+        display: flex;
+        justify-content: space-between;
 
-</body>
-</html>
+    .profile-info h3 {
+
+    .profile-info p {
+
+    .faculty-status {
+        text-align: center;
+    }
+
+    .status-active {
+        display: inline-block;
+        background: #27ae60;
+        color: white;
+        padding: 7px 16px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+    .faculty-status p {
+        color: #555;
+    }
+
+    @media (max-width: 600px) {
+        .faculty-profile {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+        }
+```
+        }
+    }
+</style>
+
+        .faculty-status {
+            text-align: left;
+        color: #666;
+        margin: 7px 0;
+    }
+        color: #333;
+        margin-bottom: 12px;
+    }
+        align-items: center;
+        background: #f5f7fb;
+        padding: 20px;
+
